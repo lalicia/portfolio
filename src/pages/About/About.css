@@ -56,11 +56,72 @@ a {
 .About_blurb {
     font-family: 'Montserrat', sans-serif;
     color: rgb(235, 232, 232);
-    font-size: 1.3rem;
-    text-shadow: 1px 1px 1px rgb(71, 243, 211);
+    font-size: 1.1rem;
+    text-shadow: .75px .75px .75px rgb(71, 243, 211);
     text-align: center;
     max-width: 60%;
     align-self: center;
+    margin-bottom: 1rem;
+}
+
+.tech_and_facts {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin-top: 1rem;
+}
+
+.tech {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    width: 100%;
+}
+
+.tech_section {
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+    margin-left: 25%;
+    margin-right: 25%;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.tech_badge {
+    margin: 0.25rem;
+}
+
+/* .skills {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    width: 50%;
+}
+
+.skills_section {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.skill {
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(235, 232, 232);
+    font-size: 1.1rem;
+    text-shadow: .75px .75px .75px rgb(71, 243, 211);
+    text-align: center;
+    margin-bottom: .5rem;
+} */
+
+.About_title {
+    font-family: 'Special Elite', cursive;
+    color: rgb(235, 232, 232);
+    font-size: 1.5rem;
+    text-shadow: 1px 1px 1px rgb(71, 243, 211);
+    text-align: center;
     margin-bottom: 1rem;
 }
 

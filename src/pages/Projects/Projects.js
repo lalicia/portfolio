@@ -4,6 +4,12 @@ import {Link} from "react-router-dom";
 import ParticlesBackground from "../ParticlesBackground/ParticlesBackground.js";
 import './Projects.css';
 
+import Card from "../../components/Card/Card.js";
+import notok from "../../assets/notok1.JPG";
+import holidayhelper from "../../assets/holidayhelper.JPG";
+import amongus from "../../assets/landingpage.JPG";
+import bootcamp from "../../assets/Homepage.JPG";
+
 import linkedin from "../../assets/linkedin.png";
 import github from "../../assets/github.png";
 
@@ -16,7 +22,38 @@ function Projects() {
             <div className="Projects_container">
                 <h1 className="Projects_h1">Projects</h1>
                
-                <p className="Projects_blurb">There will be project stuff here</p>
+                {/* <p className="Projects_blurb">There will be project stuff here</p> */}
+
+                <Card 
+                    proj_imagel={notok}
+                    proj_blurb={`iAm != "ok" is a community mental health app focussed on delivering tools and information with a light, friendly, and approachable feel.`}
+                    proj_repo={"https://github.com/lalicia/iAm_not_ok"} />
+
+                <Card 
+                    proj_imagep={holidayhelper}
+                    proj_blurb={"Holiday Helper is an app to help travelers organise different elements of their holiday, designed to host various tools in one place and lessen the need to visit multiple locations to find different types of information."} 
+                    proj_repo="" />
+                
+                <Card 
+                    proj_imagel={amongus}
+                    proj_blurb={"A portfolio design based on the game Among Us, using an animated tsParticles background and creating other pages with images and buttons in-keeping with the theme."} 
+                    proj_repo={"https://github.com/lalicia/amongus_portfolio"} />
+                
+                <Card 
+                    proj_imagel={bootcamp}
+                    proj_blurb={"Bootcamp Booster an app to provide curated resources to bootcampers who want to further their studies, to cut-down the amount of time spent searching and sifting through search results to find appropriate and helpful information."} 
+                    proj_repo={"https://github.com/lalicia/bootcamp_booster"} />
+                
+                <Card 
+                    proj_image=""
+                    proj_blurb="" 
+                    proj_repo="" />
+                
+                <Card 
+                    proj_image=""
+                    proj_blurb="" 
+                    proj_repo="" />
+
 
                 <div className="Projects_pglinks">
                     <button className="Projects_pglink"><Link to="/">Home</Link></button>

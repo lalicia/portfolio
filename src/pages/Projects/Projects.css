@@ -7,10 +7,10 @@
     font-family: 'Special Elite', cursive;
     color: rgb(235, 232, 232);
     font-size: 4rem;
-    text-shadow: 1px 1px 2px black, 0 0 20px rgb(71, 243, 211), 0 0 5px rgb(117, 3, 128);
+    text-shadow: 1px 1px 2px black, 0 0 20px rgb(254, 56, 56), 0 0 5px rgb(117, 3, 128);
     text-align: center;
     margin-top: 4.5rem;
-    margin-bottom: 1.5rem;
+    margin-bottom: 4rem;
 }
 
 .Projects_pglinks {
@@ -29,9 +29,9 @@
     border: none;
     text-decoration: none;
     font-family: 'Special Elite', cursive;
-    color: rgb(71, 243, 211);
+    color: rgb(254, 56, 56);
     font-size: 2.5rem;
-    text-shadow: 1px 1px 1px rgb(0, 0, 0), 0 0 10px rgb(81, 211, 237), 0 0 3px rgb(117, 3, 128);
+    text-shadow: 1px 1px 1px rgb(255, 255, 255), 0 0 10px rgb(249, 194, 55), 0 0 3px rgb(117, 3, 128);
     margin: 0 1rem 0 1rem;
     white-space: nowrap;
 }
@@ -49,7 +49,7 @@ a {
     font-family: 'Montserrat', sans-serif;
     color: rgb(235, 232, 232);
     font-size: 1.3rem;
-    text-shadow: 1px 1px 1px rgb(71, 243, 211);
+    text-shadow: 1px 1px 1px rgb(254, 56, 56);
     text-align: center;
     max-width: 60%;
     align-self: center;

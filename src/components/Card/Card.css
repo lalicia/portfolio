@@ -56,3 +56,10 @@
 .repo:hover {
     scale: 1.04;
 }
+
+@media (max-width: 600px) {
+    html {
+        font-size: 14px;
+    }
+}
+

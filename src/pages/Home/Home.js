@@ -1,5 +1,6 @@
 import React from "react";
 import {Link} from "react-router-dom";
+import {useEffect} from "react";
 
 import ParticlesBackground from "../ParticlesBackground/ParticlesBackground.js";
 import './Home.css';
@@ -31,6 +32,9 @@ import github from "../../assets/github.png";
 
 function Home() {
 
+    useEffect(() => {
+        window.scrollTo(0, 0)
+      }, [])
 
     return (
         <>

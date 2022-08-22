@@ -1,5 +1,6 @@
 import React from "react";
 import {Link} from "react-router-dom";
+import {useEffect} from "react";
 
 import ParticlesBackground from "../ParticlesBackground/ParticlesBackground.js";
 import './About.css';
@@ -33,6 +34,9 @@ import pixelme from "../../assets/pixel_final.svg";
 
 function About() {
 
+    useEffect(() => {
+        window.scrollTo(0, 0)
+      }, [])
 
     return (
         <>

@@ -37,16 +37,16 @@ function ContactForm() {
             
                 <div className="form_body">
                     <label htmlFor="name" className="form_label">Name</label>
-                    <input id="name" className="form_input" type="text" placeholder="Your name" name="name" maxLength="30" required />
+                    <input id="name" className="form_input" type="text" placeholder="Your name" name="name" maxLength="30" spellcheck="false" required />
                     
                     <label htmlFor="email" className="form_label">Email</label>
-                    <input id="email" className="form_input" type="email" placeholder="Your email address" name="email" maxLength="150" required />
+                    <input id="email" className="form_input" type="email" placeholder="Your email address" name="email" maxLength="150" spellcheck="false" required />
                     
                     <label htmlFor="subject" className="form_label">Subject</label>
-                    <input id="subject" className="form_input" type="text" placeholder="Subject" name="subject" maxLength="150" required />
+                    <input id="subject" className="form_input" type="text" placeholder="Subject" name="subject" maxLength="150" spellcheck="false" required />
                     
                     <label htmlFor="message" className="form_label">Message</label>
-                    <textarea id="message" className="form_input" placeholder="Please leave your message here (500 character limit)" name="message" maxLength="500" onChange={handleChange} required />
+                    <textarea id="message" className="form_input" placeholder="Please leave your message here (500 character limit)" name="message" maxLength="500" spellcheck="false" onChange={handleChange} required />
                 </div>
 
                 <div className="form_btn">

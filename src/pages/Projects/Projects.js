@@ -7,10 +7,14 @@ import './Projects.css';
 import Card from "../../components/Card/Card.js";
 import notok from "../../assets/notok1.JPG";
 import holidayhelper from "../../assets/holidayhelper.JPG";
+import portfolio from "../../assets/portfolio.JPG";
 import amongus from "../../assets/landingpage.JPG";
 import bootcamp from "../../assets/Homepage.JPG";
+import catsarelife from "../../assets/catsarelife.JPG";
+import pokemon from "../../assets/pokemon.JPG";
 
 import linkedin from "../../assets/linkedin.png";
+import email from "../../assets/email.png";
 import github from "../../assets/github.png";
 
 function Projects() {
@@ -32,7 +36,12 @@ function Projects() {
                 <Card 
                     proj_imagep={holidayhelper}
                     proj_blurb={"Holiday Helper is an app to help travelers organise different elements of their holiday, designed to host various tools in one place and lessen the need to visit multiple locations to find different types of information."} 
-                    proj_repo="" />
+                    proj_repo={"https://github.com/lalicia/holiday_helper_frontend"} />
+                
+                <Card 
+                    proj_imagel={portfolio}
+                    proj_blurb={"My professional full stack developer portfolio design"}
+                    proj_repo={""} />
                 
                 <Card 
                     proj_imagel={amongus}
@@ -45,14 +54,14 @@ function Projects() {
                     proj_repo={"https://github.com/lalicia/bootcamp_booster"} />
                 
                 <Card 
-                    proj_image=""
-                    proj_blurb="" 
-                    proj_repo="" />
+                    proj_imagel={catsarelife}
+                    proj_blurb={"School of Code Hackathon: cat pic generator app utilising React and API fetch"} 
+                    proj_repo={"https://github.com/lalicia/cats_are_life"} />
                 
                 <Card 
-                    proj_image=""
-                    proj_blurb="" 
-                    proj_repo="" />
+                    proj_imagel={pokemon}
+                    proj_blurb={"School of Code Hackathon: Pokemon Battle game utilising API fetch"} 
+                    proj_repo={"https://github.com/lalicia/pokemon_battle"} />
 
 
                 <div className="Projects_pglinks">
@@ -62,6 +71,9 @@ function Projects() {
 
                 <div className="Projects_socials">
                     <a href="https://www.linkedin.com/in/alicia-lowe-749a21240/" alt="linkedin profile" target="_blank" rel="noreferrer"><img className="socials" src={linkedin} alt="linkedin" /></a>
+
+                    <a href="mailto:hohpascal@outlook.com" alt="email" target="_blank" rel="noreferrer"><img className="socials" src={email} alt="email" /></a>
+
                     <a href="https://github.com/lalicia" alt="github profile" target="_blank" rel="noreferrer"><img className="socials" src={github} alt="github" /></a>
                 </div>
 

@@ -45,7 +45,7 @@ function Projects() {
                 <Card 
                     proj_imagel={portfolio}
                     proj_blurb={"My professional full stack developer portfolio design"}
-                    proj_repo={""} />
+                    proj_repo={"https://github.com/lalicia/portfolio"} />
                 
                 <Card 
                     proj_imagel={amongus}

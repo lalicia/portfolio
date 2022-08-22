@@ -37,6 +37,15 @@
     margin-bottom: .5rem;
 }
 
+@media (max-width: 600px) {
+    .proj_blurb {
+        width: 30rem;
+        max-width: 60%;
+        align-self: center;
+        margin-bottom: .5rem;
+    }
+}
+
 .proj_link {
     text-decoration: none;
     color: inherit;

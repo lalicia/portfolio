@@ -13,6 +13,14 @@
     margin-bottom: 1.5rem;
 }
 
+@media (max-width: 600px) {
+    .Home_h1 {
+        font-size: 3rem;
+        margin-top: 3.5rem;
+        margin-bottom: 1rem;
+    }
+}
+
 .Home_h2 {
     font-family: 'Special Elite', cursive;
     color: rgb(235, 232, 232);
@@ -20,6 +28,13 @@
     text-shadow: 1px 1px 2px black, 0 0 15px rgb(188, 19, 213), 0 0 3px rgb(117, 3, 128);
     text-align: center;
     margin-bottom: 2rem;
+}
+
+@media (max-width: 600px) {
+    .Home_h2 {
+        font-size: 2rem;
+        margin-bottom: 2rem;
+    }
 }
 
 .Home_title {
@@ -56,6 +71,12 @@
     white-space: nowrap;
 }
 
+@media (max-width: 600px) {
+    .Pglink {
+        font-size: 2rem;
+    }
+}
+
 .Pglink:hover {
     scale: 1.04;
 }
@@ -76,6 +97,12 @@ a {
     max-width: 70%;
     align-self: center;
     margin-bottom: 1rem;
+}
+
+@media (max-width: 600px) {
+    .Home_blurb {
+        max-width: 80%;
+    }
 }
 
 /********************** the section with all the tech badges */
@@ -105,6 +132,14 @@ a {
     justify-content: center;
 }
 
+@media (max-width: 600px) {
+    .tech_section {
+        width: 70%;
+        margin-left: 15%;
+        margin-right: 15%;
+    }
+}
+
 .tech_badge {
     margin: 0.25rem;
 }
@@ -122,9 +157,24 @@ a {
     margin-bottom: 1rem;
 }
 
+@media (max-width: 600px) {
+    .Home_socials {
+        max-width: 50%;
+        margin-left: 25%;
+        margin-right: 25%;
+    }
+}
+
 .socials {
     width: 3rem;
     height: auto;
+}
+
+@media (max-width: 600px) {
+    .socials {
+        width: 2rem;
+        height: auto;
+    }
 }
 
 .socials:hover {

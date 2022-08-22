@@ -6,6 +6,7 @@ import reportWebVitals from './reportWebVitals';
 
 import About from "./pages/About/About.js";
 import Projects from "./pages/Projects/Projects.js";
+import ContactForm from "./components/ContactForm/ContactForm.js";
 
 import {
   BrowserRouter,
@@ -21,6 +22,7 @@ root.render(
         <Route path="/" element={<App />} />
         <Route path="/about" element={<About />} />
         <Route path="/projects" element={<Projects />} />
+        <Route path="/contact" element={<ContactForm />} />
       </Routes>
     </BrowserRouter>
   </React.StrictMode>

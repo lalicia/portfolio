@@ -76,7 +76,8 @@ function Projects() {
                 <div className="Projects_socials">
                     <a href="https://www.linkedin.com/in/alicia-lowe-749a21240/" alt="linkedin profile" target="_blank" rel="noreferrer"><img className="socials" src={linkedin} alt="linkedin" /></a>
 
-                    <a href="mailto:hohpascal@outlook.com" alt="email" target="_blank" rel="noreferrer"><img className="socials" src={email} alt="email" /></a>
+                    {/* <a href="mailto:" alt="email" target="_blank" rel="noreferrer"><img className="socials" src={email} alt="email" /></a> */}
+                    <Link to="/contact" alt="contact form link"><img className="socials" src={email} alt="email" /></Link>
 
                     <a href="https://github.com/lalicia" alt="github profile" target="_blank" rel="noreferrer"><img className="socials" src={github} alt="github" /></a>
                 </div>

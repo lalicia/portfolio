@@ -1,70 +1,25 @@
-# Getting Started with Create React App
+# My Portfolio
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+[View my live portfolio site here](https://alicialowe.netlify.app/)
 
-## Available Scripts
+<img src="./src/assets/portfolio.JPG" alt="portfolio" width="750px" />
 
-In the project directory, you can run:
+## The Project and Thought Process
 
-### `npm start`
+The brief here was simple: create myself a portfolio website to showcase myself and my work since beginning my journey into code.  
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+The app is quite simple intentionally, but reflecting my character in the use of the starry background and the colour template/theme, and the choice of font for the titles and links.  I've used the same font (Special Elite) in my CV and on my banner image in GitHub, and I chose it to reflect my love of writing as it reminds me of typewriter text.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+I chose to use a pixel image to depict myself because honestly I'm more comfortable with that, but also I think it fits the theme and pallete as well as my personality.
 
-### `npm test`
+Though the design isn't overly complicated, it does make use of an animated background via [tsParticles](https://particles.js.org/), which I customised to how I preferred, with a dark purple background and some stars blinking a little faster to make the animation a little clearer.  I also focussed on making the app as responsive as possible, and built in media queries to make it display better on mobile.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Some Thoughts
 
-### `npm run build`
+Though I initially struggled with how I wanted to portray myself and my work, I'm really happy with how this came out and I'm happy with the things I learned during the build process (with responsive design in particular, but also using conditional classes for the project images).
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Using tsParticles a second time round was much easier as I could copy the installation pretty much from my Among Us project, though customising the animation was different so this did take some time.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Tech
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+React, React Router, HTML, CSS, JavaScript, Netlify

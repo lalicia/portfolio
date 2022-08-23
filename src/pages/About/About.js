@@ -101,7 +101,7 @@ function About() {
                 </div>
 
                 <div className="About_socials">
-                    <a href="https://www.linkedin.com/in/alicia-lowe-749a21240/" alt="linkedin profile" target="_blank" rel="noreferrer"><img className="socials" src={linkedin} alt="linkedin" /></a>
+                    <a href="https://www.linkedin.com/in/a-lowe/" alt="linkedin profile" target="_blank" rel="noreferrer"><img className="socials" src={linkedin} alt="linkedin" /></a>
 
                     {/* <a href="mailto:" alt="email" target="_blank" rel="noreferrer"><img className="socials" src={email} alt="email" /></a> */}
                     <Link to="/contact" alt="contact form link"><img className="socials" src={email} alt="email" /></Link>

@@ -16,10 +16,10 @@ Though the design isn't overly complicated, it does make use of an animated back
 
 ## Some Thoughts
 
-Though I initially struggled with how I wanted to portray myself and my work, I'm really happy with how this came out and I'm happy with the things I learned during the build process (with responsive design in particular, but also using conditional classes for the project images).
+Though I initially struggled with how I wanted to portray myself and my work, I'm really happy with how this came out and I'm happy with the things I learned during the build process (with responsive design in particular, but also using conditional classes for the project images).  Another learning point was implementing [EmailJS](https://www.emailjs.com/) for my Contact form, after receiving some feedback that a mailto might open me up to spambots!  This was a bit fiddly but mostly with actually getting my email to accept the connection.  With regards to the form I also wanted to put in place a little safeguard against people just being able to click to send an empty form, so the Send button is conditionally rendered on the form having information in the fields, which is managed by state.
 
 Using tsParticles a second time round was much easier as I could copy the installation pretty much from my Among Us project, though customising the animation was different so this did take some time.
 
 ## Tech
 
-React, React Router, HTML, CSS, JavaScript, Netlify
+React, React Router, HTML, CSS, JavaScript, Netlify, EmailJS

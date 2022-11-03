@@ -14,6 +14,7 @@ import bootcamp from "../../assets/Homepage.JPG";
 import catsarelife from "../../assets/catsarelife.JPG";
 import pokemon from "../../assets/pokemon.JPG";
 import heriley from "../../assets/heriley.JPG";
+import getsetbackup from "../../assets/getsetbackup.JPG";
 
 import linkedin from "../../assets/linkedin.png";
 import email from "../../assets/email.png";
@@ -52,6 +53,11 @@ function Projects() {
                     proj_imagel={amongus}
                     proj_blurb={"A portfolio design based on the game Among Us, using an animated tsParticles background and creating other pages with images and buttons in-keeping with the theme."}
                     proj_repo={"https://github.com/lalicia/amongus_portfolio"} />
+
+                <Card
+                    proj_imagep={getsetbackup}
+                    proj_blurb={"A website to assist people setting up their coding environments"}
+                    proj_repo={"https://github.com/lalicia/get_set_back_up"} />
 
                 <Card
                     proj_imagel={heriley}

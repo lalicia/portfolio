@@ -25,6 +25,9 @@ import reactrouter from "../../assets/reactrouterbadge.svg";
 import slack from "../../assets/slackbadge.svg";
 import trello from "../../assets/trellobadge.svg";
 import vscode from "../../assets/vscodebadge.svg";
+import nextjs from "../../assets/nextjsbadge.svg";
+import tailwind from "../../assets/tailwindbadge.svg";
+import vercel from "../../assets/vercelbadge.svg";
 
 import linkedin from "../../assets/linkedin.png";
 import email from "../../assets/email.png";
@@ -61,9 +64,12 @@ function Home() {
                             <img className="tech_badge" src={postman} alt="postman" />
                             <img className="tech_badge" src={react} alt="react" />
                             <img className="tech_badge" src={reactrouter} alt="react router" />
+                            <img className="tech_badge" src={nextjs} alt="next js" />
                             <img className="tech_badge" src={npm} alt="npm" />
+                            <img className="tech_badge" src={tailwind} alt="tailwind" />
                             <img className="tech_badge" src={heroku} alt="heroku" />
                             <img className="tech_badge" src={netlify} alt="netlify" />
+                            <img className="tech_badge" src={vercel} alt="vercel" />
                             <img className="tech_badge" src={vscode} alt="vs code" />
                             <img className="tech_badge" src={jest} alt="jest" />
                             <img className="tech_badge" src={cypress} alt="cypress" />

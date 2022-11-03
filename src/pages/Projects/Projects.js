@@ -46,7 +46,7 @@ function Projects() {
 
                 <Card
                     proj_imagel={portfolio}
-                    proj_blurb={"My professional full stack developer portfolio design"}
+                    proj_blurb={"My professional full stack developer portfolio design."}
                     proj_repo={"https://github.com/lalicia/portfolio"} />
 
                 <Card
@@ -56,27 +56,27 @@ function Projects() {
 
                 <Card
                     proj_imagep={getsetbackup}
-                    proj_blurb={"A website to assist people setting up their coding environments"}
+                    proj_blurb={"A website to assist people setting up their coding environments."}
                     proj_repo={"https://github.com/lalicia/get_set_back_up"} />
 
                 <Card
                     proj_imagel={heriley}
-                    proj_blurb={"A website for Texas-based artist, Heri Ley"}
+                    proj_blurb={"A website for Texas-based artist, Heri Ley."}
                     proj_repo={"https://github.com/lalicia/heri_ley"} />
 
                 <Card
                     proj_imagel={bootcamp}
-                    proj_blurb={"Bootcamp Booster an app to provide curated resources to bootcampers who want to further their studies, to cut-down the amount of time spent searching and sifting through search results to find appropriate and helpful information."}
+                    proj_blurb={"Bootcamp Booster is an app to provide curated resources to bootcampers who want to further their studies, to cut-down the amount of time spent searching and sifting through search results to find appropriate and helpful information."}
                     proj_repo={"https://github.com/lalicia/bootcamp_booster"} />
 
                 <Card
                     proj_imagel={catsarelife}
-                    proj_blurb={"School of Code Hackathon: cat pic generator app utilising React and API fetch"}
+                    proj_blurb={"School of Code Hackathon: cat pic generator app utilising React and API fetch."}
                     proj_repo={"https://github.com/lalicia/cats_are_life"} />
 
                 <Card
                     proj_imagel={pokemon}
-                    proj_blurb={"School of Code Hackathon: Pokemon Battle game utilising API fetch"}
+                    proj_blurb={"School of Code Hackathon: Pokemon Battle game utilising API fetch."}
                     proj_repo={"https://github.com/lalicia/pokemon_battle"} />
 
 

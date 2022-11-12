@@ -28,6 +28,7 @@ import vscode from "../../assets/vscodebadge.svg";
 import nextjs from "../../assets/nextjsbadge.svg";
 import tailwind from "../../assets/tailwindbadge.svg";
 import vercel from "../../assets/vercelbadge.svg";
+import railway from "../../assets/railwaybadge.svg";
 
 import linkedin from "../../assets/linkedin.png";
 import email from "../../assets/email.png";
@@ -68,6 +69,7 @@ function Home() {
                             <img className="tech_badge" src={npm} alt="npm" />
                             <img className="tech_badge" src={tailwind} alt="tailwind" />
                             <img className="tech_badge" src={heroku} alt="heroku" />
+                            <img className="tech_badge" src={railway} alt="railway" />
                             <img className="tech_badge" src={netlify} alt="netlify" />
                             <img className="tech_badge" src={vercel} alt="vercel" />
                             <img className="tech_badge" src={vscode} alt="vs code" />

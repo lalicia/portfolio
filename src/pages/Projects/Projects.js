@@ -15,6 +15,7 @@ import catsarelife from "../../assets/catsarelife.JPG";
 import pokemon from "../../assets/pokemon.JPG";
 import heriley from "../../assets/heriley.JPG";
 import getsetbackup from "../../assets/getsetbackup.JPG";
+import heyu from "../../assets/hey-heyu.JPG";
 
 import linkedin from "../../assets/linkedin.png";
 import email from "../../assets/email.png";
@@ -58,6 +59,11 @@ function Projects() {
                     proj_imagep={getsetbackup}
                     proj_blurb={"A website to assist people setting up their coding environments."}
                     proj_repo={"https://github.com/lalicia/get_set_back_up"} />
+
+                <Card
+                    proj_imagel={heyu}
+                    proj_blurb={"An app for people working from home or spending a lot of time in front of a computer, to help remind them to practise small self-care tasks."}
+                    proj_repo={"https://github.com/lalicia/hey-heyU"} />
 
                 <Card
                     proj_imagel={heriley}

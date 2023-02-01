@@ -91,7 +91,7 @@ function About() {
                 <div className="facts_section">
                     {/* <p className="facts_title">Rumours, hearsay, perhaps facts?</p> */}
                     <p className="facts">🤓 I write Young Adult and Popular fiction in my spare time and would love to self-publish one day.</p>
-                    <p className="facts">🤩 I really enjoy documentaries, and can be found watching Netflix docuseries' on everything from the space program to serial killers.</p>
+                    <p className="facts">🤩 I really enjoy documentaries and can be found watching Netflix docuseries' on everything from the space program to finance to serial killers.</p>
                     <p className="facts">🤤 I once made a vegetarian lasagne so convincing that a family of carnivorous Americans ate it without noticing and then refused to believe me afterwards.</p>
                 </div>
 

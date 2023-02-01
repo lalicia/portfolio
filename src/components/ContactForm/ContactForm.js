@@ -29,7 +29,7 @@ function ContactForm() {
         <>
             <ParticlesBackground />
             <div className="form_container">
-                <form onSubmit={sendEmail}>
+                <form onSubmit={sendEmail} autoComplete="off">
             
                 <div className="Contact_title">
                     <h2 className="Contact_h2">If you leave a message in the boxes, I'll get back to you as soon as possible</h2>

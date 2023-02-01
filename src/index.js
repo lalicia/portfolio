@@ -5,7 +5,7 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 
 import About from "./pages/About/About.js";
-import Projects from "./pages/Projects/Projects.js";
+import Projects from "./pages/Projects/ProjectsMakeover.js";
 import ContactForm from "./components/ContactForm/ContactForm.js";
 
 import {

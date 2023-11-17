@@ -29,10 +29,6 @@ import nextjs from "../../assets/nextjsbadge.svg";
 import tailwind from "../../assets/tailwindbadge.svg";
 import vercel from "../../assets/vercelbadge.svg";
 import railway from "../../assets/railwaybadge.svg";
-import fontawesome from "../../assets/fontawesomebadge.svg";
-import msazure from "../../assets/msazurebadge.svg";
-import canva from "../../assets/canvabadge.svg";
-import affinitydesigner from "../../assets/affinitydesignerbadge.svg";
 
 import linkedin from "../../assets/linkedin.png";
 import email from "../../assets/email.png";
@@ -71,9 +67,7 @@ function Home() {
                             <img className="tech_badge" src={reactrouter} alt="react router" />
                             <img className="tech_badge" src={nextjs} alt="next js" />
                             <img className="tech_badge" src={npm} alt="npm" />
-                            <img className="tech_badge" src={fontawesome} alt="font awesome" />
                             <img className="tech_badge" src={tailwind} alt="tailwind" />
-                            <img className="tech_badge" src={msazure} alt="microsoft azure" />
                             <img className="tech_badge" src={heroku} alt="heroku" />
                             <img className="tech_badge" src={railway} alt="railway" />
                             <img className="tech_badge" src={netlify} alt="netlify" />
@@ -83,10 +77,8 @@ function Home() {
                             <img className="tech_badge" src={cypress} alt="cypress" />
                             <img className="tech_badge" src={git} alt="git" />
                             <img className="tech_badge" src={slack} alt="slack" />
-                            <img className="tech_badge" src={canva} alt="canva" />
                             <img className="tech_badge" src={miro} alt="miro" />
                             <img className="tech_badge" src={figma} alt="figma" />
-                            <img className="tech_badge" src={affinitydesigner} alt="affinity designer" />
                             <img className="tech_badge" src={trello} alt="trello" />
                         </div>
                     </div>
